@@ -1,0 +1,501 @@
+1683759248.761750;m3-1;[INFO: App       ] Not reachable yet
+1683759248.776471;m3-2;[INFO: App       ] Not reachable yet
+1683759248.809568;m3-1;[INFO: TSCH      ] scanning on channel 15
+1683759249.624577;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 132, queue 1 1, len 21 100
+1683759249.736443;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 132, status 0, tx 1
+1683759249.736669;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000261 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len 100, seq 132, st 0  1, dr   0
+1683759249.736994;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 132
+1683759249.737119;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000261 link  1  17   0 14 135 ch 15} !dl-miss RxBeforeAck 131 133
+1683759249.737229;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000261 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-a685->LL-b885, len 100, seq 132, edr   0
+1683759249.737455;m3-1;[INFO: TSCH      ] scan: received packet (100 bytes) on channel 15
+1683759249.737563;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 21 ec
+1683759249.737666;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a7/0200.0000.0000.a685 to 0x81a7/0200.0000.0000.b885
+1683759249.737766;m3-1;[INFO: TSCH      ] scan: received packet (17 bytes) on channel 15
+1683759249.753506;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 2, FCF 02 2e
+1683759249.753734;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x0/0000.0000.0000.0000 to 0x81a7/0200.0000.0000.a685
+1683759249.817430;m3-1;[INFO: TSCH      ] scanning on channel 25
+1683759250.841450;m3-1;[INFO: TSCH      ] scanning on channel 26
+1683759250.968531;m3-2;[INFO: TSCH-LOG  ] {asn 00.000002dd link  0 600   0 133  0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len  35, seq   0, edr   1, dr  -1
+1683759250.968836;m3-9;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 144, status 0, tx 1
+1683759250.984686;m3-9;[INFO: TSCH-LOG  ] {asn 00.000002dd link  0 600   0 133  0 ch 25} bc-0-0 tx LL-b885->LL-NULL, len  35, seq 144, st 0  1
+1683759251.401479;m3-1;[INFO: TSCH      ] scan: received packet (35 bytes) on channel 26
+1683759251.401705;m3-1;[ERR : TSCH      ] ! parse_eb: PAN ID 91a5 != 81a7
+1683759251.849450;m3-1;[INFO: TSCH      ] scanning on channel 15
+1683759251.945526;m3-1;[INFO: TSCH      ] scan: received packet (48 bytes) on channel 15
+1683759251.945752;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 21 ec
+1683759251.945885;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x91a5/0200.0000.0000.9287 to 0x91a5/0200.0000.0000.9787
+1683759252.584292;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 133, queue 1 1, len 21 100
+1683759252.632259;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 133, status 0, tx 1
+1683759252.632544;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000382 link  1  17   0 14 135 ch 25} drift -5 ppm (min/max delta seen: -1/0)
+1683759252.632681;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000382 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-a685->LL-b885, len 100, seq 133, st 0  1, dr   0
+1683759252.632871;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 133
+1683759252.632986;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000382 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-a685->LL-b885, len 100, seq 133, edr   0
+1683759252.857325;m3-1;[INFO: TSCH      ] scanning on channel 20
+1683759253.866285;m3-1;[INFO: TSCH      ] scanning on channel 26
+1683759253.944379;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 134, queue 1 1, len 21 100
+1683759253.992306;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 134, status 0, tx 1
+1683759253.992599;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000040a link  1  17   0 14 135 ch 25} uc-1-0 tx LL-a685->LL-b885, len 100, seq 134, st 0  1, dr   0
+1683759253.992813;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 134
+1683759253.992936;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000040a link  1  17   0 14 135 ch 25} uc-1-0 rx LL-a685->LL-b885, len 100, seq 134, edr   0
+1683759254.568550;m3-9;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 178, queue 1 1, len 14 94
+1683759254.761205;m3-1;[INFO: App       ] Not reachable yet
+1683759254.776056;m3-2;[INFO: App       ] Not reachable yet
+1683759254.808146;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 65535
+1683759254.808374;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000045c link  2  31   0  0  1 ch 25} bc-1-0 rx LL-b885->LL-NULL, len  94, seq   0, edr   0, dr   0
+1683759254.808585;m3-9;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 145, status 0, tx 1
+1683759254.808709;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000045c link  2  31   0  0  1 ch 25} bc-1-0 tx LL-b885->LL-NULL, len  94, seq 145, st 0  1
+1683759254.873302;m3-1;[INFO: TSCH      ] scanning on channel 26
+1683759255.768120;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 135, queue 1 1, len 21 100
+1683759255.864008;m3-2;[INFO: TSCH-LOG  ] {asn 00.000004c5 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len 100, seq 135, st 2  1
+1683759255.864379;m3-9;[INFO: TSCH-LOG  ] {asn 00.000004c5 link  1  17   0 14 135 ch 15} !failed to parse frame 0 0
+1683759255.881197;m3-1;[INFO: TSCH      ] scanning on channel 26
+1683759256.009042;m3-1;[INFO: TSCH      ] scan: received packet (48 bytes) on channel 26
+1683759256.009266;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 1, type 1, FCF 61 dc
+1683759256.024788;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x91a5/0200.0000.0000.a887 to 0x91a5/0200.0000.0000.b184
+1683759256.025012;m3-1;[INFO: TSCH      ] scan: received packet (48 bytes) on channel 26
+1683759256.025141;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 1, type 1, FCF 61 dc
+1683759256.025259;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x91a5/0200.0000.0000.b184 to 0x91a5/0200.0000.0000.a887
+1683759256.040072;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 135, status 0, tx 2
+1683759256.040298;m3-2;[INFO: TSCH-LOG  ] {asn 00.000004d6 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-a685->LL-b885, len 100, seq 135, st 0  2, dr   1
+1683759256.040438;m3-2;[WARN: RPL       ] found parent: fe80::b885, staying in DAG
+1683759256.040620;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 135
+1683759256.040734;m3-9;[INFO: TSCH-LOG  ] {asn 00.000004d6 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-a685->LL-b885, len 100, seq 135, edr   1
+1683759256.889183;m3-1;[INFO: TSCH      ] scanning on channel 20
+1683759257.897072;m3-1;[INFO: TSCH      ] scanning on channel 26
+1683759258.744378;m3-9;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759258.920989;m3-1;[INFO: TSCH      ] scanning on channel 25
+1683759259.848986;m3-1;[INFO: TSCH      ] scan: received packet (48 bytes) on channel 25
+1683759259.849256;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 21 ec
+1683759259.849391;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x91a5/0200.0000.0000.9787 to 0x91a5/0200.0000.0000.9388
+1683759259.928929;m3-1;[INFO: TSCH      ] scanning on channel 26
+1683759260.279982;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 136, queue 1 1, len 21 83
+1683759260.455985;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 136, status 0, tx 1
+1683759260.456217;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000690 link  1  17   0 14 135 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+1683759260.456352;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000690 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-a685->LL-b885, len  83, seq 136, st 0  1, dr   0
+1683759260.456543;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 136
+1683759260.456658;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000690 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-a685->LL-b885, len  83, seq 136, edr   0
+1683759260.456769;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 179, queue 1 2, len 21 41
+1683759260.631641;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 179
+1683759260.631950;m3-2;[INFO: TSCH-LOG  ] {asn 00.000006a1 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b885->LL-a685, len  41, seq 179, edr   0, dr   0
+1683759260.632167;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 179, status 0, tx 1
+1683759260.632290;m3-9;[INFO: TSCH-LOG  ] {asn 00.000006a1 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-b885->LL-a685, len  41, seq 179, st 0  1
+1683759260.760799;m3-1;[INFO: App       ] Not reachable yet
+1683759260.775640;m3-2;[INFO: App       ] Sending request 0 to [INFO: App       ] 
+1683759260.775863;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 137, queue 1 1, len 21 46
+1683759260.791659;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 137, status 0, tx 1
+1683759260.791951;m3-2;[INFO: TSCH-LOG  ] {asn 00.000006b2 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-a685->LL-b885, len  46, seq 137, st 0  1, dr   0
+1683759260.792165;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 137
+1683759260.792285;m3-9;[INFO: App       ] Received request 'hello 0' from fd00::a685
+1683759260.792392;m3-9;[INFO: App       ] sending response
+1683759260.792490;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 180, queue 1 2, len 21 46
+1683759260.808067;m3-9;[INFO: TSCH-LOG  ] {asn 00.000006b2 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-a685->LL-b885, len  46, seq 137, edr   0
+1683759260.936795;m3-1;[INFO: TSCH      ] scanning on channel 26
+1683759260.967875;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 180
+1683759260.968104;m3-2;[INFO: App       ] Received response 'hello 0' from fd00::b885
+1683759260.968234;m3-2;[INFO: TSCH-LOG  ] {asn 00.000006c3 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b885->LL-a685, len  46, seq 180, edr   0, dr   0
+1683759260.968478;m3-1;[INFO: TSCH      ] scan: received packet (46 bytes) on channel 26
+1683759260.968595;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 21 ec
+1683759260.968701;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a7/0200.0000.0000.b885 to 0x81a7/0200.0000.0000.a685
+1683759260.968827;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 180, status 0, tx 1
+1683759260.968929;m3-9;[INFO: TSCH-LOG  ] {asn 00.000006c3 link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 180, st 0  1
+1683759261.944729;m3-1;[INFO: TSCH      ] scanning on channel 26
+1683759262.008600;m3-1;[INFO: TSCH      ] scan: received packet (48 bytes) on channel 26
+1683759262.024656;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 1, type 1, FCF 61 dc
+1683759262.024882;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x91a5/0200.0000.0000.a887 to 0x91a5/0200.0000.0000.b184
+1683759262.025016;m3-1;[INFO: TSCH      ] scan: received packet (3 bytes) on channel 26
+1683759262.025130;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 0, type 2, FCF 02 00
+1683759262.025237;m3-1;[INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x0/0000.0000.0000.0000 to 0x0/0000.0000.0000.0000
+1683759262.952665;m3-1;[INFO: TSCH      ] scanning on channel 25
+1683759262.983827;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000078d link  0 600   0 133  0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len  35, seq 180, edr   0, dr   0
+1683759262.984127;m3-9;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 146, status 0, tx 1
+1683759262.984267;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000078d link  0 600   0 133  0 ch 25} bc-0-0 tx LL-b885->LL-NULL, len  35, seq 146, st 0  1
+1683759262.984525;m3-1;[INFO: TSCH      ] scan: received packet (35 bytes) on channel 25
+1683759262.984647;m3-1;[INFO: TSCH      ] parse_eb: no schedule
+1683759262.984749;m3-1;[INFO: TSCH Queue] update time source: (NULL LL addr) -> 0200.0000.0000.b885
+1683759262.984850;m3-1;[INFO: TSCH Sched] add_link sf=0 opt=Rx type=ADV_ONLY ts=133 ch=0 addr=ffff.ffff.ffff.ffff
+1683759263.000569;m3-1;[INFO: TSCH      ] association done (1), sec 0, PAN ID 81a7, asn-0.78d, jp 1, timeslot id 0, hopping id 0, slotframe len 0 with 0 links, from 0200.0000.0000.b885
+1683759263.000821;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000078e link  1  17   0 13 134 ch  0} !dl-miss assoc 472 328
+1683759263.607543;m3-2;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 137, queue 1 1, len 14 94
+1683759263.799760;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 65535
+1683759263.800319;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 65535
+1683759263.815444;m3-2;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 181, status 0, tx 1
+1683759263.815745;m3-2;[INFO: TSCH-LOG  ] {asn 00.000007df link  2  31   0  0  1 ch 15} bc-1-0 tx LL-a685->LL-NULL, len  94, seq 181, st 0  1
+1683759263.815953;m3-9;[INFO: TSCH-LOG  ] {asn 00.000007df link  2  31   0  0  1 ch 15} bc-1-0 rx LL-a685->LL-NULL, len  94, seq 137, edr   0
+1683759263.816184;m3-1;[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+1683759263.816304;m3-1;[INFO: TSCH-LOG  ] {asn 00.000007df link  2  31   0  0  1 ch 15} bc-1-0 rx LL-a685->LL-NULL, len  94, seq   0, edr   2
+1683759265.128532;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 220, queue 1 1, len 21 100
+1683759265.223649;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 220
+1683759265.223873;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000086c link  1  17   0 14 135 ch 20} uc-1-0 rx LL-a484->LL-a685, len 100, seq 220, edr  -2
+1683759265.224153;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 220, status 0, tx 1
+1683759265.224284;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000086c link  1  17   0 14 134 ch 20} uc-1-0 tx LL-a484->LL-a685, len 100, seq 220, st 0  1
+1683759266.760398;m3-1;[INFO: App       ] Not reachable yet
+1683759266.775582;m3-2;[INFO: App       ] Sending request 1 to [INFO: App       ] 
+1683759266.775809;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 138, queue 1 1, len 21 46
+1683759266.919438;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 138, status 0, tx 1
+1683759266.919732;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000916 link  1  17   0 14 135 ch 25} drift -3 ppm (min/max delta seen: -1/1)
+1683759266.919870;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000916 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-a685->LL-b885, len  46, seq 138, st 0  1, dr   0
+1683759266.920063;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 138
+1683759266.920177;m3-9;[INFO: App       ] Received request 'hello 1' from fd00::a685
+1683759266.920281;m3-9;[INFO: App       ] sending response
+1683759266.920378;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 181, queue 1 1, len 21 46
+1683759266.935652;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000916 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-a685->LL-b885, len  46, seq 138, edr   0
+1683759267.095366;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 181
+1683759267.095590;m3-2;[INFO: App       ] Received response 'hello 1' from fd00::b885
+1683759267.095720;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000927 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b885->LL-a685, len  46, seq 181, edr   0, dr   0
+1683759267.095908;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 181, status 0, tx 1
+1683759267.096023;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000927 link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 181, st 0  1
+1683759267.223671;m3-9;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 181, queue 1 1, len 14 94
+1683759267.527429;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 65535
+1683759267.527657;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000953 link  2  31   0  0  1 ch 15} bc-1-0 rx LL-b885->LL-NULL, len  94, seq 181, edr   0, dr   0
+1683759267.527868;m3-9;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 147, status 0, tx 1
+1683759267.527988;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000953 link  2  31   0  0  1 ch 15} bc-1-0 tx LL-b885->LL-NULL, len  94, seq 147, st 0  1
+1683759267.528223;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 65535
+1683759267.528354;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000953 link  2  31   0  0  1 ch 15} bc-1-0 rx LL-b885->LL-NULL, len  94, seq   0, edr   1, dr  -1
+1683759267.975407;m3-2;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759268.104410;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 221, queue 1 1, len 21 100
+1683759268.119407;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 221
+1683759268.119631;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000098d link  1  17   0 14 135 ch 15} !dl-miss RxBeforeAck 131 133
+1683759268.119843;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000098d link  1  17   0 14 135 ch 15} uc-1-0 rx LL-a484->LL-a685, len 100, seq 221, edr   0
+1683759268.120054;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 221, status 0, tx 1
+1683759268.120171;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000098d link  1  17   0 14 134 ch 15} uc-1-0 tx LL-a484->LL-a685, len 100, seq 221, st 0  1
+1683759268.152093;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 222, queue 1 1, len 21 100
+1683759268.279793;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 222
+1683759268.280020;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000099e link  1  17   0 14 135 ch 25} !dl-miss RxBeforeAck 131 133
+1683759268.280243;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 222, status 0, tx 1
+1683759268.280366;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000099e link  1  17   0 14 134 ch 25} uc-1-0 tx LL-a484->LL-b885, len 100, seq 222, st 0  1, dr   0
+1683759268.295538;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000099e link  1  17   0 14 135 ch 25} uc-1-0 rx LL-a484->LL-b885, len 100, seq 222, edr   0
+1683759268.983336;m3-2;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 182, status 0, tx 1
+1683759268.984118;m3-1;[INFO: TSCH-LOG  ] {asn 00.000009e5 link  0 600   0 133  0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len  35, seq   0, edr   0
+1683759268.999167;m3-2;[INFO: TSCH-LOG  ] {asn 00.000009e5 link  0 600   0 133  0 ch 25} bc-0-0 tx LL-a685->LL-NULL, len  35, seq 182, st 0  1
+1683759269.016140;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 223, queue 1 1, len 21 100
+1683759269.127661;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 223
+1683759269.128037;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 223, status 0, tx 1
+1683759269.143540;m3-9;[INFO: TSCH-LOG  ] {asn 00.000009f3 link  1  17   0 14 135 ch 26} !dl-miss RxBeforeAck 131 133
+1683759269.143838;m3-9;[INFO: TSCH-LOG  ] {asn 00.000009f3 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-a484->LL-b885, len 100, seq 223, edr   0
+1683759269.144050;m3-1;[INFO: TSCH-LOG  ] {asn 00.000009f3 link  1  17   0 14 134 ch 26} uc-1-0 tx LL-a484->LL-b885, len 100, seq 223, st 0  1, dr   0
+1683759271.159484;m3-9;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759272.536029;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 224, queue 1 1, len 21 100
+1683759272.711520;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 224
+1683759272.711814;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000b58 link  1  17   0 14 135 ch 20} !dl-miss RxBeforeAck 131 133
+1683759272.711950;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000b58 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-a484->LL-b885, len 100, seq 224, edr   0
+1683759272.712141;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 224, status 0, tx 1
+1683759272.712255;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000b58 link  1  17   0 14 134 ch 20} drift 0 ppm (min/max delta seen: -1/0)
+1683759272.712362;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000b58 link  1  17   0 14 134 ch 20} uc-1-0 tx LL-a484->LL-b885, len 100, seq 224, st 0  1, dr   0
+1683759272.759901;m3-1;[INFO: App       ] Not reachable yet
+1683759272.775201;m3-2;[INFO: App       ] Sending request 2 to [INFO: App       ] 
+1683759272.775426;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 139, queue 1 1, len 21 46
+1683759272.871096;m3-2;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 139, queue 1 2, len 14 94
+1683759272.871326;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 139, status 0, tx 1
+1683759272.871475;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000b69 link  1  17   0 14 135 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+1683759272.871627;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 139
+1683759272.871736;m3-9;[INFO: App       ] Received request 'hello 2' from fd00::a685
+1683759272.871835;m3-9;[INFO: App       ] sending response
+1683759272.886980;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000b69 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len  46, seq 139, st 0  1, dr   1
+1683759272.887244;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 182, queue 1 2, len 21 46
+1683759272.887380;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000b69 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-a685->LL-b885, len  46, seq 139, edr   1
+1683759273.047095;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 182
+1683759273.047323;m3-2;[INFO: App       ] Received response 'hello 2' from fd00::b885
+1683759273.047454;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000b7a link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b885->LL-a685, len  46, seq 182, edr   0, dr   0
+1683759273.047646;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 182, status 0, tx 1
+1683759273.047763;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000b7a link  1  17   0 14 135 ch 25} uc-1-0 tx LL-b885->LL-a685, len  46, seq 182, st 0  1
+1683759273.111146;m3-2;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 183, status 0, tx 1
+1683759273.111374;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000b81 link  2  31   0  0  1 ch 26} bc-1-0 tx LL-a685->LL-NULL, len  94, seq 183, st 0  1
+1683759273.111615;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 65535
+1683759273.111742;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000b81 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-a685->LL-NULL, len  94, seq 139, edr   0
+1683759273.111916;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 65535
+1683759273.112023;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000b81 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-a685->LL-NULL, len  94, seq   0, edr   0
+1683759274.999016;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000c3d link  0 600   0 133  0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len  35, seq 182, edr   1, dr  -1
+1683759274.999330;m3-9;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 148, status 0, tx 1
+1683759274.999472;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000c3d link  0 600   0 133  0 ch 25} bc-0-0 tx LL-b885->LL-NULL, len  35, seq 148, st 0  1
+1683759274.999716;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000c3d link  0 600   0 133  0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len  35, seq   0, edr   0, dr   0
+1683759275.174758;m3-2;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759276.167752;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 225, queue 1 1, len 21 100
+1683759276.279160;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 225
+1683759276.279455;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000cbd link  1  17   0 14 135 ch 15} !dl-miss RxBeforeAck 131 133
+1683759276.279595;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000cbd link  1  17   0 14 135 ch 15} uc-1-0 rx LL-a484->LL-b885, len 100, seq 225, edr   0
+1683759276.279786;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 225, status 0, tx 1
+1683759276.279903;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000cbd link  1  17   0 14 134 ch 15} uc-1-0 tx LL-a484->LL-b885, len 100, seq 225, st 0  1, dr   0
+1683759276.280014;m3-1;[WARN: RPL       ] found parent: fe80::b885, staying in DAG
+1683759278.759650;m3-1;[INFO: App       ] Not reachable yet
+1683759278.774742;m3-2;[INFO: App       ] Sending request 3 to [INFO: App       ] 
+1683759278.774966;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 140, queue 1 2, len 21 46
+1683759278.807493;m3-1;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759278.822764;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 140
+1683759278.838614;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 140, status 0, tx 1
+1683759278.838843;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000dbc link  1  17   0 14 135 ch 20} drift -3 ppm (min/max delta seen: -1/1)
+1683759278.838995;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000dbc link  1  17   0 14 135 ch 20} uc-1-0 tx LL-a685->LL-b885, len  46, seq 140, st 0  1, dr   0
+1683759278.839191;m3-9;[INFO: App       ] Received request 'hello 3' from fd00::a685
+1683759278.839303;m3-9;[INFO: App       ] sending response
+1683759278.839403;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 183, queue 1 1, len 21 46
+1683759278.839505;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000dbc link  1  17   0 14 135 ch 20} uc-1-0 rx LL-a685->LL-b885, len  46, seq 140, edr   0
+1683759278.871453;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 226, queue 1 2, len 21 83
+1683759278.998962;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000dcd link  1  17   0 14 135 ch 15} uc-1-0 tx LL-b885->LL-a685, len  46, seq 183, st 2  1
+1683759278.999334;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000dcd link  1  17   0 14 134 ch 15} uc-1-0 tx LL-a484->LL-b885, len  83, seq 226, st 2  1
+1683759279.174875;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000dde link  1  17   0 14 135 ch 25} uc-1-0 tx LL-b885->LL-a685, len  46, seq 183, st 2  2
+1683759279.175245;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000dde link  1  17   0 14 134 ch 25} uc-1-0 tx LL-a484->LL-b885, len  83, seq 226, st 2  2
+1683759279.334965;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000def link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 183, st 2  3
+1683759279.335338;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000def link  1  17   0 14 134 ch 26} uc-1-0 tx LL-a484->LL-b885, len  83, seq 226, st 2  3
+1683759279.510863;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000e00 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-b885->LL-a685, len  46, seq 183, st 2  4
+1683759279.511229;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000e00 link  1  17   0 14 134 ch 20} uc-1-0 tx LL-a484->LL-b885, len  83, seq 226, st 2  4
+1683759279.846649;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000e22 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-b885->LL-a685, len  46, seq 183, st 2  5
+1683759279.847162;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000e22 link  1  17   0 14 134 ch 25} uc-1-0 tx LL-a484->LL-b885, len  83, seq 226, st 2  5
+1683759280.198699;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000e44 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-b885->LL-a685, len  46, seq 183, st 2  6
+1683759280.199161;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000e44 link  1  17   0 14 134 ch 20} uc-1-0 tx LL-a484->LL-b885, len  83, seq 226, st 2  6
+1683759280.534810;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000e66 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-b885->LL-a685, len  46, seq 183, st 2  7
+1683759280.535192;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000e66 link  1  17   0 14 134 ch 25} uc-1-0 tx LL-a484->LL-b885, len  83, seq 226, st 2  7
+1683759280.694746;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 183, status 2, tx 8
+1683759280.695112;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 226, status 2, tx 8
+1683759280.710702;m3-9;[INFO: TSCH-LOG  ] {asn 00.00000e77 link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 183, st 2  8
+1683759280.711071;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000e77 link  1  17   0 14 134 ch 26} uc-1-0 tx LL-a484->LL-b885, len  83, seq 226, st 2  8
+1683759280.983381;m3-1;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 132, status 0, tx 1
+1683759280.998686;m3-2;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 184, status 0, tx 1
+1683759280.998983;m3-2;[INFO: TSCH-LOG  ] {asn 00.00000e95 link  0 600   0 133  0 ch 25} bc-0-0 tx LL-a685->LL-NULL, len  35, seq 184, st 0  1
+1683759280.999202;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000e94 link  0 600   0 132  0 ch 15} bc-0-0 tx LL-a484->LL-NULL, len  35, seq 132, st 0  1
+1683759280.999333;m3-1;[INFO: TSCH-LOG  ] {asn 00.00000e95 link  0 600   0 133  0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len  35, seq   0, edr   0
+1683759284.759235;m3-1;[INFO: App       ] Not reachable yet
+1683759284.774339;m3-2;[INFO: App       ] Sending request 4 to [INFO: App       ] 
+1683759284.774571;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 141, queue 1 1, len 21 46
+1683759284.790345;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 141, status 0, tx 1
+1683759284.790574;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000100f link  1  17   0 14 135 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+1683759284.790712;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000100f link  1  17   0 14 135 ch 26} uc-1-0 tx LL-a685->LL-b885, len  46, seq 141, st 0  1, dr   1
+1683759284.790905;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 141
+1683759284.791022;m3-9;[INFO: App       ] Received request 'hello 4' from fd00::a685
+1683759284.791126;m3-9;[INFO: App       ] sending response
+1683759284.791223;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 184, queue 1 1, len 21 46
+1683759284.791325;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000100f link  1  17   0 14 135 ch 26} uc-1-0 rx LL-a685->LL-b885, len  46, seq 141, edr   1
+1683759284.950341;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 184
+1683759284.950567;m3-2;[INFO: App       ] Received response 'hello 4' from fd00::b885
+1683759284.950770;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 184, status 0, tx 1
+1683759284.966244;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001020 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b885->LL-a685, len  46, seq 184, edr   0, dr   0
+1683759284.966506;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001020 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-b885->LL-a685, len  46, seq 184, st 0  1
+1683759285.671106;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 227, queue 1 1, len 21 83
+1683759285.814455;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 227
+1683759285.814757;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001075 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-a484->LL-b885, len  83, seq 227, edr   0
+1683759285.814898;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a484 with seqno 185, queue 1 1, len 21 41
+1683759285.815087;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 227, status 0, tx 1
+1683759285.815203;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001075 link  1  17   0 14 134 ch 15} drift 0 ppm (min/max delta seen: -1/0)
+1683759285.815310;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001075 link  1  17   0 14 134 ch 15} uc-1-0 tx LL-a484->LL-b885, len  83, seq 227, st 0  1, dr   0
+1683759285.958948;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 185
+1683759285.974482;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a484, seqno 185, status 0, tx 1
+1683759285.974777;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001085 link  1  17   0 13 135 ch 20} uc-1-0 tx LL-b885->LL-a484, len  41, seq 185, st 0  1
+1683759285.974988;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001085 link  1  17   0 13 134 ch 20} uc-1-0 rx LL-b885->LL-a484, len  41, seq 185, edr   0, dr   0
+1683759286.214376;m3-9;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759286.998419;m3-9;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 149, status 0, tx 1
+1683759287.014104;m3-2;[INFO: TSCH-LOG  ] {asn 00.000010ed link  0 600   0 133  0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len  35, seq 227, edr   1, dr  -1
+1683759287.014488;m3-9;[INFO: TSCH-LOG  ] {asn 00.000010ed link  0 600   0 133  0 ch 25} bc-0-0 tx LL-b885->LL-NULL, len  35, seq 149, st 0  1
+1683759287.014706;m3-1;[INFO: TSCH-LOG  ] {asn 00.000010ed link  0 600   0 133  0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len  35, seq 185, edr   0, dr   0
+1683759288.134135;m3-2;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759288.197866;m3-2;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 141, queue 1 2, len 14 94
+1683759288.326026;m3-2;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 186, status 0, tx 1
+1683759288.326291;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001170 link  2  31   0  0  1 ch 25} bc-1-0 tx LL-a685->LL-NULL, len  94, seq 186, st 0  1
+1683759288.326507;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 65535
+1683759288.326694;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001170 link  2  31   0  0  1 ch 25} bc-1-0 rx LL-a685->LL-NULL, len  94, seq 227, edr   0
+1683759288.326884;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 65535
+1683759288.326995;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001170 link  2  31   0  0  1 ch 25} bc-1-0 rx LL-a685->LL-NULL, len  94, seq 185, edr   1
+1683759288.934904;m3-1;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 227, queue 1 1, len 14 94
+1683759289.254147;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 65535
+1683759289.254505;m3-2;[INFO: TSCH-LOG  ] {asn 00.000011cd link  2  31   0  0  1 ch 26} bc-1-0 rx LL-a484->LL-NULL, len  94, seq 227, edr   0
+1683759289.254724;m3-1;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 133, status 0, tx 1
+1683759289.254848;m3-1;[INFO: TSCH-LOG  ] {asn 00.000011cd link  2  31   0  0  1 ch 26} bc-1-0 tx LL-a484->LL-NULL, len  94, seq 133, st 0  1
+1683759289.254984;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 65535
+1683759289.255088;m3-9;[INFO: TSCH-LOG  ] {asn 00.000011cd link  2  31   0  0  1 ch 26} bc-1-0 rx LL-a484->LL-NULL, len  94, seq 227, edr   0
+1683759289.382314;m3-9;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 185, queue 1 1, len 14 94
+1683759289.557930;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 65535
+1683759289.558202;m3-2;[INFO: TSCH-LOG  ] {asn 00.000011ec link  2  31   0  0  1 ch 25} drift -3 ppm (min/max delta seen: -1/1)
+1683759289.558532;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 65535
+1683759289.558661;m3-1;[INFO: TSCH-LOG  ] {asn 00.000011ec link  2  31   0  0  1 ch 25} bc-1-0 rx LL-b885->LL-NULL, len  94, seq 185, edr   0, dr   0
+1683759289.558803;m3-9;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 150, status 0, tx 1
+1683759289.558910;m3-9;[INFO: TSCH-LOG  ] {asn 00.000011ec link  2  31   0  0  1 ch 25} bc-1-0 tx LL-b885->LL-NULL, len  94, seq 150, st 0  1
+1683759289.573724;m3-2;[INFO: TSCH-LOG  ] {asn 00.000011ec link  2  31   0  0  1 ch 25} bc-1-0 rx LL-b885->LL-NULL, len  94, seq 227, edr   0, dr   0
+1683759290.758820;m3-1;[INFO: App       ] Sending request 0 to [INFO: App       ] 
+1683759290.773878;m3-2;[INFO: App       ] Sending request 5 to [INFO: App       ] 
+1683759290.774142;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 142, queue 1 2, len 21 46
+1683759290.774473;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 228, queue 1 1, len 21 46
+1683759290.917685;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001273 link  1  17   0 14 135 ch 26} uc-1-0 tx LL-a685->LL-b885, len  46, seq 142, st 2  1
+1683759290.918109;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 228
+1683759290.918377;m3-9;[INFO: App       ] Received request 'hello 0' from fd00::a484
+1683759290.918501;m3-9;[INFO: App       ] sending response
+1683759290.918603;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a484 with seqno 186, queue 1 1, len 21 46
+1683759290.918707;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001273 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-a484->LL-b885, len  46, seq 228, edr   0
+1683759290.918891;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 228, status 0, tx 1
+1683759290.918998;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001273 link  1  17   0 14 134 ch 26} drift 0 ppm (min/max delta seen: -1/0)
+1683759290.919101;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001273 link  1  17   0 14 134 ch 26} uc-1-0 tx LL-a484->LL-b885, len  46, seq 228, st 0  1, dr   0
+1683759291.077914;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 142, status 0, tx 2
+1683759291.078177;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001284 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-a685->LL-b885, len  46, seq 142, st 0  2, dr   0
+1683759291.078498;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 186
+1683759291.078623;m3-1;[INFO: App       ] Received response 'hello 0' from fd00::b885
+1683759291.078727;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001283 link  1  17   0 13 134 ch 25} uc-1-0 rx LL-b885->LL-a484, len  46, seq 186, edr   0, dr   0
+1683759291.078861;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a484, seqno 186, status 0, tx 1
+1683759291.078982;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001283 link  1  17   0 13 135 ch 25} uc-1-0 tx LL-b885->LL-a484, len  46, seq 186, st 0  1
+1683759291.079089;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 142
+1683759291.079185;m3-9;[INFO: App       ] Received request 'hello 5' from fd00::a685
+1683759291.079280;m3-9;[INFO: App       ] sending response
+1683759291.079370;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 187, queue 1 1, len 21 46
+1683759291.094065;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001284 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-a685->LL-b885, len  46, seq 142, edr   0
+1683759291.253816;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 187
+1683759291.254080;m3-2;[INFO: App       ] Received response 'hello 5' from fd00::b885
+1683759291.254264;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001295 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b885->LL-a685, len  46, seq 187, edr   0, dr   0
+1683759291.254430;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 187, status 0, tx 1
+1683759291.254542;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001295 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-b885->LL-a685, len  46, seq 187, st 0  1
+1683759292.806661;m3-1;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759292.998661;m3-1;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 134, status 0, tx 1
+1683759292.998890;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001344 link  0 600   0 132  0 ch 15} bc-0-0 tx LL-a484->LL-NULL, len  35, seq 134, st 0  1
+1683759293.013855;m3-2;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 185, status 0, tx 1
+1683759293.014332;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001345 link  0 600   0 133  0 ch 25} bc-0-0 tx LL-a685->LL-NULL, len  35, seq 185, st 0  1
+1683759293.014572;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001345 link  0 600   0 133  0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len  35, seq 186, edr   1
+1683759296.182496;m3-1;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 228, queue 1 1, len 14 94
+1683759296.389671;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 65535
+1683759296.389962;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001496 link  2  31   0  0  1 ch 20} bc-1-0 rx LL-a484->LL-NULL, len  94, seq 187, edr  -1
+1683759296.390201;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 65535
+1683759296.390363;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001496 link  2  31   0  0  1 ch 20} bc-1-0 rx LL-a484->LL-NULL, len  94, seq 142, edr   0
+1683759296.390540;m3-1;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 135, status 0, tx 1
+1683759296.390651;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001496 link  2  31   0  0  1 ch 20} bc-1-0 tx LL-a484->LL-NULL, len  94, seq 135, st 0  1
+1683759296.758318;m3-1;[INFO: App       ] Sending request 1 to [INFO: App       ] 
+1683759296.773519;m3-2;[INFO: App       ] Sending request 6 to [INFO: App       ] 
+1683759296.773821;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 143, queue 1 1, len 21 46
+1683759296.774070;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 229, queue 1 1, len 21 46
+1683759296.869473;m3-2;[INFO: TSCH-LOG  ] {asn 00.000014c6 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-a685->LL-b885, len  46, seq 143, st 2  1
+1683759296.869834;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 229
+1683759296.869984;m3-9;[INFO: App       ] Received request 'hello 1' from fd00::a484
+1683759296.870139;m3-9;[INFO: App       ] sending response
+1683759296.870292;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a484 with seqno 188, queue 1 1, len 21 46
+1683759296.870408;m3-9;[INFO: TSCH-LOG  ] {asn 00.000014c6 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-a484->LL-b885, len  46, seq 229, edr   0
+1683759296.870576;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 229, status 0, tx 1
+1683759296.870681;m3-1;[INFO: TSCH-LOG  ] {asn 00.000014c6 link  1  17   0 14 134 ch 25} drift 0 ppm (min/max delta seen: -1/0)
+1683759296.870802;m3-1;[INFO: TSCH-LOG  ] {asn 00.000014c6 link  1  17   0 14 134 ch 25} uc-1-0 tx LL-a484->LL-b885, len  46, seq 229, st 0  1, dr   0
+1683759297.029583;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 143, status 0, tx 2
+1683759297.029845;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a484, seqno 188, status 0, tx 1
+1683759297.030098;m3-9;[INFO: TSCH-LOG  ] {asn 00.000014d6 link  1  17   0 13 135 ch 15} uc-1-0 tx LL-b885->LL-a484, len  46, seq 188, st 0  1
+1683759297.030282;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 143
+1683759297.030406;m3-9;[INFO: App       ] Received request 'hello 6' from fd00::a685
+1683759297.030579;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 188
+1683759297.030685;m3-1;[INFO: App       ] Received response 'hello 1' from fd00::b885
+1683759297.030783;m3-1;[INFO: TSCH-LOG  ] {asn 00.000014d6 link  1  17   0 13 134 ch 15} uc-1-0 rx LL-b885->LL-a484, len  46, seq 188, edr   0, dr   0
+1683759297.045491;m3-2;[INFO: TSCH-LOG  ] {asn 00.000014d7 link  1  17   0 14 135 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+1683759297.045723;m3-2;[INFO: TSCH-LOG  ] {asn 00.000014d7 link  1  17   0 14 135 ch 26} uc-1-0 tx LL-a685->LL-b885, len  46, seq 143, st 0  2, dr   1
+1683759297.045892;m3-9;[INFO: App       ] sending response
+1683759297.046050;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 189, queue 1 1, len 21 46
+1683759297.046178;m3-9;[INFO: TSCH-LOG  ] {asn 00.000014d7 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-a685->LL-b885, len  46, seq 143, edr   1
+1683759297.205400;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 189
+1683759297.205627;m3-2;[INFO: App       ] Received response 'hello 6' from fd00::b885
+1683759297.205756;m3-2;[INFO: TSCH-LOG  ] {asn 00.000014e8 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b885->LL-a685, len  46, seq 189, edr   0, dr   0
+1683759297.205907;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 189, status 0, tx 1
+1683759297.206058;m3-9;[INFO: TSCH-LOG  ] {asn 00.000014e8 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-b885->LL-a685, len  46, seq 189, st 0  1
+1683759299.798147;m3-1;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759301.717158;m3-2;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759302.053450;m3-9;[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+1683759302.757950;m3-1;[INFO: App       ] Sending request 2 to [INFO: App       ] 
+1683759302.773180;m3-2;[INFO: App       ] Sending request 7 to [INFO: App       ] 
+1683759302.773484;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 144, queue 1 2, len 21 46
+1683759302.773694;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 230, queue 1 2, len 21 46
+1683759302.821142;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 144, status 0, tx 1
+1683759302.821421;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001719 link  1  17   0 14 135 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+1683759302.821561;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001719 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len  46, seq 144, st 0  1, dr   0
+1683759302.821749;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001719 link  1  17   0 14 134 ch 15} uc-1-0 tx LL-a484->LL-b885, len  46, seq 230, st 2  1
+1683759302.821900;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 144
+1683759302.822043;m3-9;[INFO: App       ] Received request 'hello 7' from fd00::a685
+1683759302.822146;m3-9;[INFO: App       ] sending response
+1683759302.822305;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 190, queue 1 2, len 21 46
+1683759302.822415;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001719 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-a685->LL-b885, len  46, seq 144, edr   0
+1683759302.997247;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000172a link  1  17   0 14 135 ch 25} uc-1-0 tx LL-b885->LL-a685, len  46, seq 190, st 2  1
+1683759302.997633;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000172a link  1  17   0 14 134 ch 25} uc-1-0 tx LL-a484->LL-b885, len  46, seq 230, st 2  2
+1683759303.157184;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000173b link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 190, st 2  2
+1683759303.157570;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000173b link  1  17   0 14 134 ch 26} uc-1-0 tx LL-a484->LL-b885, len  46, seq 230, st 2  3
+1683759303.333189;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000174c link  1  17   0 14 135 ch 20} uc-1-0 tx LL-b885->LL-a685, len  46, seq 190, st 2  3
+1683759303.333575;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000174c link  1  17   0 14 134 ch 20} uc-1-0 tx LL-a484->LL-b885, len  46, seq 230, st 2  4
+1683759303.509009;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000175d link  1  17   0 14 135 ch 15} uc-1-0 tx LL-b885->LL-a685, len  46, seq 190, st 2  4
+1683759303.509402;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000175d link  1  17   0 14 134 ch 15} uc-1-0 tx LL-a484->LL-b885, len  46, seq 230, st 2  5
+1683759303.845186;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000177f link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 190, st 2  5
+1683759303.845589;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000177f link  1  17   0 14 134 ch 26} uc-1-0 tx LL-a484->LL-b885, len  46, seq 230, st 2  6
+1683759304.181268;m3-9;[INFO: TSCH-LOG  ] {asn 00.000017a1 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-b885->LL-a685, len  46, seq 190, st 2  6
+1683759304.181659;m3-1;[INFO: TSCH-LOG  ] {asn 00.000017a1 link  1  17   0 14 134 ch 15} uc-1-0 tx LL-a484->LL-b885, len  46, seq 230, st 2  7
+1683759304.357266;m3-9;[INFO: TSCH-LOG  ] {asn 00.000017b2 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-b885->LL-a685, len  46, seq 190, st 2  7
+1683759304.357654;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 230, status 2, tx 8
+1683759304.357795;m3-1;[INFO: TSCH-LOG  ] {asn 00.000017b2 link  1  17   0 14 134 ch 25} uc-1-0 tx LL-a484->LL-b885, len  46, seq 230, st 2  8
+1683759304.357917;m3-1;[INFO: TSCH Queue] update time source: 0200.0000.0000.b885 -> 0200.0000.0000.a685
+1683759304.517116;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 190
+1683759304.517351;m3-2;[INFO: App       ] Received response 'hello 7' from fd00::b885
+1683759304.517512;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 190, status 0, tx 8
+1683759304.532923;m3-2;[INFO: TSCH-LOG  ] {asn 00.000017c3 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b885->LL-a685, len  46, seq 190, edr   0, dr   0
+1683759304.533186;m3-9;[INFO: TSCH-LOG  ] {asn 00.000017c3 link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 190, st 0  8
+1683759305.013071;m3-9;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 151, status 0, tx 1
+1683759305.013646;m3-1;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 136, status 0, tx 1
+1683759305.013824;m3-1;[INFO: TSCH-LOG  ] {asn 00.000017f4 link  0 600   0 132  0 ch 15} bc-0-0 tx LL-a484->LL-NULL, len  35, seq 136, st 0  1
+1683759305.028939;m3-2;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 187, status 0, tx 1
+1683759305.029169;m3-2;[INFO: TSCH-LOG  ] {asn 00.000017f5 link  0 600   0 133  0 ch 25} bc-0-0 tx LL-a685->LL-NULL, len  35, seq 187, st 0  1
+1683759305.029334;m3-9;[INFO: TSCH-LOG  ] {asn 00.000017f5 link  0 600   0 133  0 ch 25} bc-0-0 tx LL-b885->LL-NULL, len  35, seq 151, st 0  1
+1683759306.629678;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 231, queue 1 1, len 21 100
+1683759306.740877;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 231
+1683759306.741107;m3-2;[INFO: TSCH-LOG  ] {asn 00.000018a0 link  1  17   0 14 135 ch 20} !dl-miss RxBeforeAck 131 133
+1683759306.741321;m3-2;[INFO: TSCH-LOG  ] {asn 00.000018a0 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-a484->LL-a685, len 100, seq 231, edr   0
+1683759306.741516;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 231, status 0, tx 1
+1683759306.741633;m3-1;[INFO: TSCH-LOG  ] {asn 00.000018a0 link  1  17   0 14 134 ch 20} uc-1-0 tx LL-a484->LL-a685, len 100, seq 231, st 0  1, dr   0
+1683759307.365641;m3-1;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 231, queue 1 1, len 14 94
+1683759307.412958;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 232
+1683759307.413294;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 145, queue 1 1, len 21 92
+1683759307.413520;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 232, queue 1 2, len 21 91
+1683759307.413644;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 232, status 0, tx 1
+1683759307.413751;m3-1;[INFO: TSCH-LOG  ] {asn 00.000018e4 link  1  17   0 14 134 ch 20} uc-1-0 tx LL-a484->LL-a685, len  91, seq 232, st 0  1, dr   0
+1683759307.428758;m3-2;[INFO: TSCH-LOG  ] {asn 00.000018e4 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-a484->LL-a685, len  91, seq 232, edr   0
+1683759307.556716;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 65535
+1683759307.557025;m3-2;[INFO: TSCH-LOG  ] {asn 00.000018f2 link  2  31   0  0  1 ch 20} bc-1-0 rx LL-a484->LL-NULL, len  94, seq 232, edr   0
+1683759307.557294;m3-1;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 137, status 0, tx 1
+1683759307.557420;m3-1;[INFO: TSCH-LOG  ] {asn 00.000018f2 link  2  31   0  0  1 ch 20} bc-1-0 tx LL-a484->LL-NULL, len  94, seq 137, st 0  1
+1683759307.557558;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 65535
+1683759307.557662;m3-9;[INFO: TSCH-LOG  ] {asn 00.000018f2 link  2  31   0  0  1 ch 20} bc-1-0 rx LL-a484->LL-NULL, len  94, seq 232, edr   0
+1683759307.588751;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 145, status 0, tx 1
+1683759307.588980;m3-2;[INFO: TSCH-LOG  ] {asn 00.000018f5 link  1  17   0 14 135 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+1683759307.589114;m3-2;[INFO: TSCH-LOG  ] {asn 00.000018f5 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len  92, seq 145, st 0  1, dr   0
+1683759307.589264;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 145
+1683759307.589373;m3-9;[INFO: TSCH-LOG  ] {asn 00.000018f5 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-a685->LL-b885, len  92, seq 145, edr   0
+1683759307.589480;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 191, queue 1 1, len 21 49
+1683759307.620748;m3-2;[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 145, queue 1 1, len 14 94
+1683759307.748738;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.b885 with seqno 191
+1683759307.748995;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 191, status 0, tx 1
+1683759307.764633;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.a484 with seqno 146, queue 1 2, len 21 58
+1683759307.764856;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001906 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b885->LL-a685, len  49, seq 191, edr   0, dr   0
+1683759307.765025;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001906 link  1  17   0 14 135 ch 25} uc-1-0 tx LL-b885->LL-a685, len  49, seq 191, st 0  1
+1683759307.860781;m3-2;[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 188, status 0, tx 1
+1683759307.861029;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001911 link  2  31   0  0  1 ch 26} bc-1-0 tx LL-a685->LL-NULL, len  94, seq 188, st 0  1
+1683759307.861274;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 65535
+1683759307.861417;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001911 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-a685->LL-NULL, len  94, seq 145, edr   0
+1683759307.861596;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 65535
+1683759307.861705;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001911 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-a685->LL-NULL, len  94, seq 188, edr   0, dr   0
+1683759307.908619;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.a484, seqno 146, status 0, tx 1
+1683759307.909209;m3-1;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 146
+1683759307.924723;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001916 link  1  17   0 13 135 ch 15} uc-1-0 tx LL-a685->LL-a484, len  58, seq 146, st 0  1
+1683759307.925198;m3-1;[INFO: TSCH-LOG  ] {asn 00.00001916 link  1  17   0 13 134 ch 15} uc-1-0 rx LL-a685->LL-a484, len  58, seq 146, edr   0, dr   0
+1683759308.757514;m3-1;[INFO: App       ] Sending request 3 to [INFO: App       ] 
+1683759308.772800;m3-2;[INFO: App       ] Sending request 8 to [INFO: App       ] 
+1683759308.773098;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 147, queue 1 1, len 21 46
+1683759308.773238;m3-2;[INFO: TSCH      ] received from 0200.0000.0000.a484 with seqno 233
+1683759308.773424;m3-1;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 233, queue 1 1, len 21 54
+1683759308.773540;m3-1;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 233, status 0, tx 1
+1683759308.773644;m3-1;[INFO: TSCH-LOG  ] {asn 00.0000196c link  1  17   0 14 134 ch 20} uc-1-0 tx LL-a484->LL-a685, len  54, seq 233, st 0  1, dr   0
+1683759308.788596;m3-2;[INFO: TSCH      ] send packet to 0200.0000.0000.b885 with seqno 148, queue 2 2, len 21 55
+1683759308.788824;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000196c link  1  17   0 14 135 ch 20} uc-1-0 rx LL-a484->LL-a685, len  54, seq 233, edr   0
+1683759308.948701;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 147, status 0, tx 1
+1683759308.948941;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000197d link  1  17   0 14 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len  46, seq 147, st 0  1, dr   0
+1683759308.949156;m3-9;[INFO: TSCH      ] received from 0200.0000.0000.a685 with seqno 147
+1683759308.949277;m3-9;[INFO: App       ] Received request 'hello 8' from fd00::a685
+1683759308.949383;m3-9;[INFO: App       ] sending response
+1683759308.949481;m3-9;[INFO: TSCH      ] send packet to 0200.0000.0000.a685 with seqno 192, queue 1 1, len 21 46
+1683759308.964503;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000197e link  1  17   1 15 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len  55, seq 148, st 2  1
+1683759308.964804;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000197d link  1  17   0 14 135 ch 15} uc-1-0 rx LL-a685->LL-b885, len  46, seq 147, edr   0
+1683759308.964950;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000197e link  1  17   1 15 135 ch 15} uc-1-0 tx LL-b885->LL-a685, len  46, seq 192, st 2  1
+1683759309.124626;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000198e link  1  17   0 14 135 ch 25} uc-1-0 tx LL-a685->LL-b885, len  55, seq 148, st 2  2
+1683759309.124893;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000198e link  1  17   0 14 135 ch 25} uc-1-0 tx LL-b885->LL-a685, len  46, seq 192, st 2  2
+1683759309.284753;m3-2;[INFO: TSCH-LOG  ] {asn 00.0000199f link  1  17   0 14 135 ch 26} uc-1-0 tx LL-a685->LL-b885, len  55, seq 148, st 2  3
+1683759309.285031;m3-9;[INFO: TSCH-LOG  ] {asn 00.0000199f link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 192, st 2  3
+1683759309.460754;m3-2;[INFO: TSCH-LOG  ] {asn 00.000019b0 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-a685->LL-b885, len  55, seq 148, st 2  4
+1683759309.461045;m3-9;[INFO: TSCH-LOG  ] {asn 00.000019b0 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-b885->LL-a685, len  46, seq 192, st 2  4
+1683759309.620693;m3-2;[INFO: TSCH-LOG  ] {asn 00.000019c1 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len  55, seq 148, st 2  5
+1683759309.620979;m3-9;[INFO: TSCH-LOG  ] {asn 00.000019c1 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-b885->LL-a685, len  46, seq 192, st 2  5
+1683759309.972655;m3-2;[INFO: TSCH-LOG  ] {asn 00.000019e3 link  1  17   0 14 135 ch 26} uc-1-0 tx LL-a685->LL-b885, len  55, seq 148, st 2  6
+1683759309.972990;m3-9;[INFO: TSCH-LOG  ] {asn 00.000019e3 link  1  17   0 14 135 ch 26} uc-1-0 tx LL-b885->LL-a685, len  46, seq 192, st 2  6
+1683759310.132635;m3-2;[INFO: TSCH-LOG  ] {asn 00.000019f4 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-a685->LL-b885, len  55, seq 148, st 2  7
+1683759310.132989;m3-9;[INFO: TSCH-LOG  ] {asn 00.000019f4 link  1  17   0 14 135 ch 20} uc-1-0 tx LL-b885->LL-a685, len  46, seq 192, st 2  7
+1683759310.308635;m3-2;[INFO: TSCH      ] packet sent to 0200.0000.0000.b885, seqno 148, status 2, tx 8
+1683759310.308874;m3-2;[INFO: TSCH-LOG  ] {asn 00.00001a05 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-a685->LL-b885, len  55, seq 148, st 2  8
+1683759310.309042;m3-9;[INFO: TSCH      ] packet sent to 0200.0000.0000.a685, seqno 192, status 2, tx 8
+1683759310.309160;m3-9;[INFO: TSCH-LOG  ] {asn 00.00001a05 link  1  17   0 14 135 ch 15} uc-1-0 tx LL-b885->LL-a685, len  46, seq 192, st 2  8
